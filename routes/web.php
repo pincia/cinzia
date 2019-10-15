@@ -17,6 +17,13 @@ Route::get('/', function () {
 Route::get('/wrong', function () {
     return view('wrongcode');
 });
+
+Route::get('/dresscode', function () {
+    return view('dresscode');
+});
+Route::get('/location', function () {
+    return view('location');
+});
 Route::get('/home', function () {
     return view('home');
 });

@@ -10,7 +10,7 @@
     
     <!-- Optionally, you can add icons to the links -->
     <li class="active"><a href="#"><i class="fa fa-female"></i> <span>DRESCODE</span></a></li>
-    <li class="active"><a href="#"><i class="fa fa-map-marker"></i> <span>LOCATION</span></a></li>
+    <li class="active"><a href="#"><i class="fa fa-map-marker"></i> <span>MAP</span></a></li>
   </ul>
   <!-- /.sidebar-menu -->
 </section>

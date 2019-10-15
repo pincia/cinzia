@@ -2,7 +2,7 @@
  <header class="main-header">
 
 <!-- Logo -->
-<a href="index2.html" class="logo"   >
+<a href="/home" class="logo"   >
   <!-- mini logo for sidebar mini 50x50 pixels -->
   <span class="logo-mini" style="font-family: Raconteur NF!important;"><b>A</b>LT</span>
   <!-- logo for regular state and mobile devices -->
@@ -19,7 +19,7 @@
       <!-- Messages: style can be found in dropdown.less-->
       <li class="dropdown messages-menu">
         <!-- Menu toggle button -->
-        <a href="#" class="dropdown-toggle">
+        <a href="/dresscode" class="dropdown-toggle">
           <i class="fa fa-female" style="margin-right:7px;"></i>
           DRESSCODE
         </a>
@@ -55,8 +55,8 @@
       <!-- Notifications Menu -->
       <li class="dropdown notifications-menu">
         <!-- Menu toggle button -->
-        <a href="#" class="dropdown-toggle">
-          <i class="fa fa-map-marker" style="margin-right:7px;"></i>LOCATION
+        <a href="/location" class="dropdown-toggle">
+          <i class="fa fa-map-marker" style="margin-right:7px;"></i>MAP
         </a>
         <ul class="dropdown-menu">
           <li class="header">You have 10 notifications</li>
