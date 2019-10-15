@@ -45,9 +45,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div style="color: #D48C39;text-align: center;">
 <p style="font-family: Raconteur NF!important;font-size:30px!important;font-weight:bold!important;">CODICE ERRATO!</p>
 
-<p style="font-size: 20px;!important">Non hai ancora ricevuto un codice? </p>
+<p style="font-size: 20px;!important">Ancora non lo hai? </p>
 
-<p style="font-size: 20px;!important">Presto ne riceverai uno! </p>
+<p style="font-size: 20px;!important">STAY TUNED! </p>
 <div style="height:30px;"></div>
 
 <a href="{{ url()->previous() }}" class="btn-warning btn-lg">INDIETRO</a>
