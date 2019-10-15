@@ -1,0 +1,9 @@
+.prova{
+    background: red;
+    color: green;
+}
+
+
+
+  @font-face { font-family: "HazelDecoLight-Regular"; font-weight: bold; src: url('/fonts/hazeldecolight-regular.otf') format('otf');}
+  @font-face {font-family: "Raconteur NF"; src: url("//db.onlinewebfonts.com/t/eff7eef6057f6cc2eeade101a392a1a4.eot"); src: url("//db.onlinewebfonts.com/t/eff7eef6057f6cc2eeade101a392a1a4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/eff7eef6057f6cc2eeade101a392a1a4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/eff7eef6057f6cc2eeade101a392a1a4.woff") format("woff"), url("//db.onlinewebfonts.com/t/eff7eef6057f6cc2eeade101a392a1a4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/eff7eef6057f6cc2eeade101a392a1a4.svg#Raconteur NF") format("svg"); }
