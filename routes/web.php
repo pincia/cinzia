@@ -17,4 +17,7 @@ Route::get('/', function () {
 Route::get('/wrong', function () {
     return view('wrongcode');
 });
+Route::get('/home', function () {
+    return view('home');
+});
 Route::post('checkcode', 'CheckcodeController@check');

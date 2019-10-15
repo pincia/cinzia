@@ -89,7 +89,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 	<path clip-path="url(#SVGID_4_)" fill="none" stroke="#D48C39" stroke-width="6" stroke-miterlimit="10" d="M121.15,329.952V2.994
 		V329.952z"/>
 </g>
-<text transform="matrix(1 0 0 1 222.6011 481.5688)" fill="#D48C39" font-family="'HazelDecoLight-Regular'" font-size="36"> </text>
+<text transform="matrix(1 0 0 1 222.6011 481.5688)" fill="#D48C39" font-family="Raconteur NF" font-size="36"> </text>
 <line fill="none" stroke="#E30613" stroke-width="5" stroke-miterlimit="10" x1="177.065" y1="764.629" x2="572" y2="763.629"/>
 <path fill="#D48C39" d="M212.298,302.951V2.994V302.951z"/>
 <g>

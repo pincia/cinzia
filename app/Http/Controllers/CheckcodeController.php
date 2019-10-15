@@ -7,8 +7,8 @@ use Illuminate\Http\Request;
 class CheckcodeController extends Controller
 {
     function check(Request $req){
-        if($req->code=='CAZZAROLA'){
-            return "HAI VINTO!";
+        if($req->code=='carote'){
+            return redirect('/home');
         }
         else{
             return redirect('/wrong');
