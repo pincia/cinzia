@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return view('savethedate');
 });
-Route::get('/invite', function () {
-    return view('home');
+Route::get('/wrong', function () {
+    return view('wrongcode');
 });
+Route::post('checkcode', 'CheckcodeController@check');

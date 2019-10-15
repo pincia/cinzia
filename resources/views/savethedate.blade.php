@@ -369,12 +369,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <div style=" width:100%;text-align:center;">
 <img src = "/images/key_oro.svg" style="width:30%;">
-        <form method="post" action = "/create">
+        <form method="post" action="/checkcode" >
         @csrf <!-- This blade directive generates <input type="hidden" name="_token" value="xyz..." /> -->
-        <input type="text" name="code" id="fname" placeholder="Inserisci il tuo CODICE" /><br/><br/>
+        <input style="width:30%;"  type="text" name="code" id="fname" placeholder="Inserisci il tuo CODICE" /><br/><br/>
         <input class="btn btn-warning btn-lg" type="submit" name="submit" id="submit" />
         <div style="height: 20px;"></div>
+
 </form>
+
 </div>
     </div><!-- /.content-wrapper -->
 
