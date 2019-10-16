@@ -2,7 +2,10 @@
     background: red;
     color: green;
 }
-
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}
 
 
   @font-face { font-family: "HazelDecoLight-Regular"; font-weight: bold; src: url('/fonts/hazeldecolight-regular.otf') format('otf');}
