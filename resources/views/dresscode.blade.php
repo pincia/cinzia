@@ -94,7 +94,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="swiper-slide" style="background-image:url(./images/foto3.jpg)"></div>
       <div class="swiper-slide" style="background-image:url(./images/foto4.jpg)"></div>
       <div class="swiper-slide" style="background-image:url(./images/foto5.jpg)"></div>
-    </div>
+    </div>s
     <!-- Add Arrows -->
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
