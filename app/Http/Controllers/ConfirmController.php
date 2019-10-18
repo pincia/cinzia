@@ -14,7 +14,7 @@ class ConfirmController extends Controller
         echo $name;
         echo $surname;
         $sms = new NexmoMessage('c716ae89', 'KFHujQ9BCOrj79eR');
-       $result =  $sms->sendText( '+393394124586', 'PROHIBITIONPARTY', 'Ciao Cinzia, '.$name.' '.$surname.' ha confermato la sua presenza al Prohibiton Party!' );
+       $result =  $sms->sendText( '+393202191525', 'PROHIBITIONPARTY', 'Ciao Cinzia, '.$name.' '.$surname.' ha confermato la sua presenza al Prohibiton Party!' );
         return redirect('/thankyou')->with( ['name' => $req->name] );
     }
 }
