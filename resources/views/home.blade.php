@@ -39,7 +39,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <!-- Content Wrapper. Contains page content -->
     <div style="background: black!important;margin: 20px;">
-
+ 
     <svg version="1.1" id="Livello_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     width=100% height=100%  viewBox="0 0 595.28 841.89" enable-background="new 0 0 595.28 841.89" xml:space="preserve">
 <rect x="1.067" y="2.763" width="590.837" height="836.257"/>
@@ -209,7 +209,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <text transform="matrix(1 0 0 1 187.4795 314.2573)" fill="#D48C39" font-family="Raconteur NF" font-size="56.597">CINZIA </text>
 <text transform="matrix(1 0 0 1 276.6279 485.2837)" fill="#D48C39" font-family="Raconteur NF" font-size="32.2702">th  </text>
 <text transform="matrix(1 0 0 1 245.6055 437.4478)" fill="#D48C39" font-family="Raconteur NF" font-size="77.4485">30</text>
-<text transform="matrix(1 0 0 1 161.3955 571.6411)" fill="#D48C39" font-family="Raconteur NF" font-size="24.3268">prohibition party</text>
+<text transform="matrix(1 0 0 1 164.3955 597.6411)" fill="#D48C39" font-family="Raconteur NF" font-size="24.3268">prohibition party</text>
 <polygon fill="#D48C39" points="78.361,691.479 113.114,691.479 295.107,691.479 "/>
 <polyline fill="none" stroke="#D48C39" stroke-width="6" stroke-miterlimit="10" points="78.361,691.479 295.108,691.479 
 	113.114,691.479 "/>
@@ -745,6 +745,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <text transform="matrix(1 0 0 1 463.7061 740.7114)" fill="#D48C39" font-family="Raconteur NF" font-size="27">, </text>
 <text transform="matrix(1 0 0 1 472.0078 741.7104)" fill="#D48C39" font-family="Raconteur NF" font-size="26">40</text>
 <text transform="matrix(1 0 0 1 262.6401 791.7104)" fill="#D48C39" font-family="Raconteur NF" font-size="24">20.00</text>
+<text transform="matrix(1 0 0 1 259.9976 563.7104)" fill="#D48C39" font-family="Raconteur NF" font-size="36">1920</text>
+
 </svg>
 
 

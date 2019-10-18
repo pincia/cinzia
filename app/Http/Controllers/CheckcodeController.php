@@ -8,7 +8,9 @@ class CheckcodeController extends Controller
 {
     function check(Request $req){
         if($req->code=='carote'){
-            return redirect('/home');
+            $val ="pippo";
+            return redirect('/home')->with( ['vote' => $val] );
+
         }
         else{
             return redirect('/wrong');

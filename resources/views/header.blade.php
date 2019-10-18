@@ -74,7 +74,13 @@
           <li class="footer"><a href="#">View all</a></li>
         </ul>
       </li>
-  
+      <li class="dropdown messages-menu">
+        <!-- Menu toggle button -->
+        <a href="/confirm" class="dropdown-toggle">
+          <i class="fa fa-check" style="margin-right:7px;"></i>
+         CONFIRM
+        </a>
+        </li>
     </ul>
   </div>
 </nav>

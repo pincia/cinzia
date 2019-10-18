@@ -27,4 +27,11 @@ Route::get('/location', function () {
 Route::get('/home', function () {
     return view('home');
 });
+Route::get('/confirm', function () {
+    return view('confirm');
+});
+Route::get('/thankyou', function () {
+    return view('thankyou');
+});
 Route::post('checkcode', 'CheckcodeController@check');
+Route::post('confirm', 'ConfirmController@confirm');
