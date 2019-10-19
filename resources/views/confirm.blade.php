@@ -35,11 +35,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <!-- Header -->
     @include('header')
-
-
-
+    
     <!-- Content Wrapper. Contains page content -->
     <div style="background: black!important;margin: 20px;text-align:center;">
+    @if($confirm == 'KO')
+    <div name="confirm">
     <div style="height: 20px;"></div>
     <p style="font-size: 20px;!important;color: #D48C39;">CONFERMA LA TUA PRESENZA</p>
     <div style="height: 20px;"></div>
@@ -50,6 +50,15 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <input class="btn btn-warning btn-lg" type="submit" name="submit" id="submit" />
         <div style="height: 20px;"></div>
 </form>
+</div>
+@else
+<div name="confirmed">
+    <div style="height: 20px;"></div>
+    <p style="font-size: 20px;!important;color: #D48C39;">HAI GIA' CONFERMATO LA TUA PRESENZA,</p>
+    <div style="height: 20px;"></div>
+    <p style="font-size: 20px;!important;color: #D48C39;">GRAZIE</p>
+</div>
+    @endif
 </div>
 
     

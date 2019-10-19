@@ -47,12 +47,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
       margin: 0;
       padding: 0;
     }
-    .slides {
-  height: auto;
-}
+
     .swiper-container {
       width: 100%;
+
     
+    }
+    img{
+      height:100%;
     }
     .swiper-button-next{
           color: #D48C39;
@@ -92,17 +94,38 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <div class="swiper-container">
     <div class="swiper-wrapper">
-    <div class="swiper-slide" style="background-image:url(./images/foto1.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto2.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto3.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto4.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto5.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto6.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto7.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto8.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto9.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto10.jpg)"></div>
-      <div class="swiper-slide" style="background-image:url(./images/foto11.jpg)"></div>
+   
+ 
+    <div class="swiper-slide"> 
+    <img src="./images/foto2.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto3.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto4.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto5.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto6.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto7.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto8.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto9.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto10.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto11.jpg">
+    </div>
     </div>
     <!-- Add Arrows -->
     <div class="swiper-button-next"></div>

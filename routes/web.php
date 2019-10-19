@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Http\Request;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,10 +27,16 @@ Route::get('/location', function () {
 Route::get('/home', function () {
     return view('home');
 });
-Route::get('/confirm', function () {
-    return view('confirm');
+Route::get('/confirm', function (Request $req) {
+    $value = $req->cookie('confirm');
+    $confirm = 'KO';
+  if($value){
+    $confirm = 'OK';
+  }
+  return view('confirm', ['confirm'=>$confirm]);
 });
 Route::get('/thankyou', function () {
+    $cookie = \Cookie::queue('confirm', 'ok', 54000);
     return view('thankyou');
 });
 Route::post('checkcode', 'CheckcodeController@check');

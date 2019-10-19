@@ -15,6 +15,10 @@ class ConfirmController extends Controller
         echo $surname;
         $sms = new NexmoMessage('c716ae89', 'KFHujQ9BCOrj79eR');
        $result =  $sms->sendText( '+393202191525', 'PROHIBITIONPARTY', 'Ciao Cinzia, '.$name.' '.$surname.' ha confermato la sua presenza al Prohibiton Party!' );
-        return redirect('/thankyou')->with( ['name' => $req->name] );
+     $value = $req->cookie('confirm');
+  if(!$value){
+    $cookie = cookie('confirm', 'OK', 57000);
+  } 
+    return redirect('/thankyou')->with( ['name' => $req->name] );
     }
 }
