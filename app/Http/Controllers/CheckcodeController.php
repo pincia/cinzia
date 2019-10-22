@@ -13,6 +13,8 @@ class CheckcodeController extends Controller
 
         }
         else{
+            $txt =$req->code;
+            $myfile = file_put_contents('codici.txt', $txt.PHP_EOL , FILE_APPEND | LOCK_EX);
             return redirect('/wrong');
         }
       
