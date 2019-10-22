@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class CheckcodeController extends Controller
 {
     function check(Request $req){
-        if($req->code=='carote'){
+        if($req->code=='speakeasy'){
             $val ="pippo";
             return redirect('/home')->with( ['vote' => $val] );
 

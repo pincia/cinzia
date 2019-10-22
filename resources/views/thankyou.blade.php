@@ -41,9 +41,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Wrapper. Contains page content -->
     <div style="background: black!important;margin: 20px;text-align:center;">
     <div style="height: 40px;"></div>
+    
     <p style="font-size: 20px;!important;color: #D48C39;">GRAZIE PER AVER CONFERMATO LA TUA PRESENZA <b>{{Session::get('name')}}</b>.</p>
     <div style="height: 16px;"></div>
-    <p style="font-size: 20px;!important;color: #D48C39;">Ci vediamo il 24 Novembre alle ore 20:00!</p><div style="height: 20px;"></div>
+    <p style="font-size: 20px;!important;color: #D48C39;">Ci vediamo il 25 Novembre alle ore 20:00!</p><div style="height: 20px;"></div>
  
 </div>
 
