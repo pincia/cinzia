@@ -363,6 +363,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <text transform="matrix(1 0 0 1 73.7026 450.1616)" fill="#CDA434" font-family="Raconteur NF" font-size="51">CINZIA </text>
 <text transform="matrix(1 0 0 1 284.3521 547.1216)" fill="#CDA434" font-family="Raconteur NF" font-size="24">th  </text>
 <text transform="matrix(1 0 0 1 177.0649 547.1216)" fill="#CDA434" font-family="Raconteur NF"font-size="78">30</text>
+<text transform="matrix(1 0 0 1 297.6396 740.3745)" fill="#CDA434" font-family="Raconteur NF" font-size="36">25.11.2019</text>
+
 <text transform="matrix(1 0 0 1 265.0649 815.6968)" fill="#CDA434" font-family="Raconteur NF" font-size="28">prohibition party</text>
 <text transform="matrix(1 0 0 1 175.7998 816.6987)" fill="#CDA434" font-family="Raconteur NF" font-size="36">1920</text>
 
