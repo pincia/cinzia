@@ -54,9 +54,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
 @else
 <div name="confirmed">
     <div style="height: 20px;"></div>
-    <p style="font-size: 20px;!important;color: #D48C39;">HAI GIA' CONFERMATO LA TUA PRESENZA,</p>
+    <p style="font-family:raconteur nf;color: #CDA434; font-size: 2rem;">HAI GIA' CONFERMATO LA TUA PRESENZA,</p>
     <div style="height: 20px;"></div>
-    <p style="font-size: 20px;!important;color: #D48C39;">GRAZIE</p>
+    <p style="font-family:raconteur nf;color: #CDA434; font-size: 2rem;">GRAZIE</p>
 </div>
     @endif
 </div>
