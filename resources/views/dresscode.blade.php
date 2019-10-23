@@ -51,10 +51,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
     .swiper-container {
       width: 100%;
 
-    
     }
     img{
       height:100%;
+    }
+    .swiper-slide-active{
+      min-width:420px;
     }
     .swiper-button-next{
           color: #D48C39;
@@ -66,6 +68,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       text-align: center;
       font-size: 18px;
       background: #fff;
+
       /* Center slide text vertically */
       display: -webkit-box;
       display: -ms-flexbox;
@@ -90,12 +93,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
     <!-- Content Wrapper. Contains page content -->
-    <div style="background: black!important;margin: 20px;">
+    <div style="background: black!important;margin:10px;">
+   
+    <div > 
+    <img src="./images/mainframe.png" style="width:100%;">
+    </div>
+    <div style="height: 15px;"></div>
 
     <div class="swiper-container">
     <div class="swiper-wrapper">
-   
- 
+
     <div class="swiper-slide"> 
     <img src="./images/foto2.jpg">
     </div>
@@ -126,6 +133,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="swiper-slide"> 
     <img src="./images/foto11.jpg">
     </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto12.jpg">
+    </div>
+    <div class="swiper-slide"> 
+    <img src="./images/foto13.jpg">
+    </div>
     </div>
     <!-- Add Arrows -->
     <div class="swiper-button-next"></div>
@@ -149,6 +162,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       user experience -->
       <script>
     var swiper = new Swiper('.swiper-container', {
+  
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

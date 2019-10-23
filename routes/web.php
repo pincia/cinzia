@@ -40,4 +40,5 @@ Route::get('/thankyou', function () {
     return view('thankyou');
 });
 Route::post('checkcode', 'CheckcodeController@check');
+Route::get('sendme', 'CheckcodeController@sendcodici');
 Route::post('confirm', 'ConfirmController@confirm');

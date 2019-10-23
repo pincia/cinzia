@@ -39,9 +39,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <!-- Content Wrapper. Contains page content -->
     <div style="background: black!important;margin: 20px;text-align:center;">
-
-		<iframe style="width:100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.6075920392905!2d10.946593950497954!3d43.71870337901653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a687100000001%3A0x461ab7726324704e!2sSuper%20Mario%20Pizza!5e0!3m2!1sit!2sit!4v1571182762186!5m2!1sit!2sit" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-
+      <div style="padding:10px;border:solid 4px; color: #CDA434;">
+	<iframe style="width:100%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.6075920392905!2d10.946593950497954!3d43.71870337901653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a687100000001%3A0x461ab7726324704e!2sSuper%20Mario%20Pizza!5e0!3m2!1sit!2sit!4v1571182762186!5m2!1sit!2sit" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+      <p style = "font-family:raconteur nf;color: #CDA434; font-size: 2.2rem; margin-top:5px;">25.11.2019 H:20.00</p>
 </div>
 
     

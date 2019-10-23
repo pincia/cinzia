@@ -41,7 +41,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     @if($confirm == 'KO')
     <div name="confirm">
     <div style="height: 20px;"></div>
-    <p style="font-size: 20px;!important;color: #D48C39;">CONFERMA LA TUA PRESENZA</p>
+    <p style="font-family:raconteur nf;color: #CDA434; font-size: 2rem;">CONFERMA LA TUA PRESENZA</p>
     <div style="height: 20px;"></div>
     <form method="post" action="/confirm" >
         @csrf <!-- This blade directive generates <input type="hidden" name="_token" value="xyz..." /> -->
