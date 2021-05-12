@@ -20,6 +20,6 @@
     },
     "dependencies": {
         "ngrok": "^3.2.5",
-        "swiper": "^5.0.4"
+        "swiper": "^6.5.1"
     }
 }
